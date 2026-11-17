@@ -1,0 +1,31 @@
+{
+  "name": "web-dev-practise",
+  "version": "1.0.0",
+  "description": "A Tutorial",
+  "homepage": "https://github.com/jangrasneha5-maker/WEB-DEV-PRACTISE#readme",
+  "bugs": {
+    "url": "https://github.com/jangrasneha5-maker/WEB-DEV-PRACTISE/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jangrasneha5-maker/WEB-DEV-PRACTISE.git"
+  },
+  "license": "ISC",
+  "author": "Sneha Jangra",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node BACKEND/src/index.js",
+    "dev": "nodemon BACKEND/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.1",
+    "nodemon": "^3.1.14"
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true
+  }
+}
